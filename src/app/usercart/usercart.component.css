@@ -1,0 +1,18 @@
+img{
+    width: 15%;
+    height: 15%;
+    margin-left: 10%;
+}
+table{
+    width: 60%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.product{
+    background-color: white;
+    
+}
+.quantity-group input{
+    width: 20%;
+}

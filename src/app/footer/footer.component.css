@@ -1,0 +1,20 @@
+ul li{
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.row{
+    background-color: black;
+}
+.footer{
+    position: relative;
+    left:0px;
+   bottom:1px;
+   height:50%;
+   width:105%;
+   right: 0px;
+}

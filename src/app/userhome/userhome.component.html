@@ -1,0 +1,21 @@
+ <div class="userhome">
+    <div class="row">
+        <ul class="designul">
+            <li class="designli"><a href="#">Best Seller</a></li>
+            <li class="designli"><a href="#">New Release</a></li>
+            <li class="designli"><a href="#">Most Wished</a></li>
+            <li class="designli"><a href="#">Gift Idea</a></li>
+        </ul>
+        <hr>
+    </div>
+    <div class="row">
+        <h4 style="margin-left: 2%;">Any Department</h4>
+        <div class="col-sm-2 usrborder" *ngFor="let item of particularAsset">
+            <img  style="margin-left: 15%;" src="{{item.productimage}}">
+            <p style="margin-left: 15%;">{{item.productdescription}}</p>
+            <button class="btn btn-warning" style="margin-left: 15%;"><a  routerLink="/user-view/{{item.id}}">Details</a></button>
+            <button class="btn btn-secondary" (click)="AddtoCart(item.id)" ><a routerLink="/usercart/{{item.id}}">Add to Cart</a></button>
+        </div>
+        
+    </div>
+</div>

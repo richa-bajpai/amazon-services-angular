@@ -1,0 +1,20 @@
+<div class="product">
+    <div class="row" *ngIf="productdetailsData">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+            <img src="{{productdetailsData.productimage}}">
+        </div>
+        <div class="col-sm-4">
+            <h4>{{productdetailsData.productname}}</h4>
+            <p>{{productdetailsData.productdescription}}</p>
+            <!-- <button class="btn btn-warning"><a routerLink="/usercart/{{productdetailsData.id}}">Add to Cart</a></button> -->
+            <button *ngIf="!removeCart" class="btn btn-warning" (click)="AddTocart()">Add to Cart</button>
+            <button style="margin-left: 2%;" (click)="handleQuantity('max')">+</button>
+            <input type="text" value="{{productQuantity}}">
+            <button (click)="handleQuantity('min')">-</button>
+            <button *ngIf="removeCart"(click)="RemovetoCart(productdetailsData.id)">Remove</button>
+
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+</div>

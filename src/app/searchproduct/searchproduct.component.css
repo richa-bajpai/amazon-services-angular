@@ -1,0 +1,13 @@
+.searchitem{
+    background-color: white;
+    margin:3rem;
+}
+img{
+    width: 90%;
+    height: 90%;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    top:5px;
+}

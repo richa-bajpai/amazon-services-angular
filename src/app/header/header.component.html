@@ -1,0 +1,139 @@
+    <nav class="nav">
+        <div>
+            <h1><a routerLink="/">Amazon</a></h1>
+        </div>
+        <div class="nav-search">
+            <input #searchinput type="text"  (keyup)="searchResult($event)" (blur)="hidesearch()" placeholder="search here">
+            <button (click)="submitSearch(searchinput.value)"><i class="bi bi-search"></i></button><br>
+            <ul class="searchresult"*ngIf="srchpro" style="display: block;">
+                <li *ngFor="let item of srchpro">
+                    <a (mousedown)="redirectToDetails(item.id)" style="color: black;">{{item.productname}}</a>
+                </li>
+            </ul>
+        </div>
+        <div [ngSwitch]="menuType">
+            <ul *ngSwitchCase="'default'">
+                <li> <a routerLink="/">Home</a></li>
+                <li> <a routerLink="aboutus">AboutUs</a></li>
+                <li><a routerLink="seller-auth">Seller</a></li>
+                <li style="margin-right: 1rem;"><a routerLink="user-auth">User</a> </li>
+            </ul>
+            <ul *ngSwitchCase="'seller'">
+                <li><a routerLink="/">Home</a> </li>
+                <li><a routerLink="seller-home">AddProduct</a></li>
+                <li><a routerLink="seller-product">Products</a></li>
+                <li><a href=""(click)="slrLogout()">Logout</a></li>
+                <li style="margin-right: 1rem;"><a routerLink="profile">{{slrName|titlecase}}</a></li>
+            </ul>
+            <ul *ngSwitchCase="'user'">
+                <li><a routerLink="user-home">Home</a></li>
+                <li><a routerLink="l̥usercart\">Cart({{cartItem}})</a></li>
+                <li><a href="" (click)="userLogout()">Logout</a></li>
+                <li style="margin-right: 1rem;"><a href="#">{{uName|titlecase}}</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <span class="text-muted">
+            <ul class="togglenav">
+                <li>
+                  <a href="#">CustomerService</a>  
+                </li>
+                <li>
+                    <a href="#">BestSeller</a>  
+                </li>
+                <li>
+                    <a href="#">Amazon Basics</a>  
+                </li>
+                <li>
+                    <a href="#">New Releases</a>  
+                </li>
+                <li>
+                    <a href="#">Music</a>  
+                </li>
+                <li>
+                    <a href="#">Books</a>  
+                </li>
+                <li>
+                    <a href="#">Registry</a>  
+                </li>
+                <li>
+                    <a href="#">Fashion</a>  
+                </li>
+                <li>
+                    <a routerLink="/">Home</a>
+                </li>
+                <li>
+                    <a href="#">AboutUs</a>
+                </li>
+                <li>
+                    <a href="#">ContactUs</a>
+                </li>
+                <li>
+                    <a href="#">Sell</a>
+                </li>
+                <li>
+                    <a href="#">Trends</a>
+                </li>
+                <li>
+                    <a href="#">Seller-home</a>
+                </li>
+            </ul></span>
+        </div>
+    </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button><nav class="nav2">
+            <div>
+                <ul>
+                    <li>
+                      <a href="#">CustomerService</a>  
+                    </li>
+                    <li>
+                        <a href="#">BestSeller</a>  
+                    </li>
+                    <li>
+                        <a href="#">Amazon Basics</a>  
+                    </li>
+                    <li>
+                        <a href="#">New Releases</a>  
+                    </li>
+                    <li>
+                        <a href="#">Music</a>  
+                    </li>
+                    <li>
+                        <a href="#">Books</a>  
+                    </li>
+                    <li>
+                        <a href="#">Registry</a>  
+                    </li>
+                    <li>
+                        <a href="#">Fashion</a>  
+                    </li>
+                    <li>
+                        <a routerLink="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">AboutUs</a>
+                    </li>
+                    <li>
+                        <a href="#">ContactUs</a>
+                    </li>
+                    <li>
+                        <a href="#">Sell</a>
+                    </li>
+                    <li>
+                        <a href="#">Trends</a>
+                    </li>
+                    <li>
+                        <a href="#">Seller-home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+          
+        </div>
+      </nav>

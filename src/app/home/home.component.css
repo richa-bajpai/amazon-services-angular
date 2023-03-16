@@ -1,0 +1,67 @@
+img{
+    height: 400px;
+}
+.text-block{
+    top:20rem;
+    padding: 16px;
+    width:20%;
+    height: 18rem;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:absolute;
+    padding-left: 2%;
+}
+.trend-img{
+    height: 150px;
+    width: 200px;
+}
+.footer{
+    bottom: 0px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  .container{
+    margin-top:15%
+  }
+.card-img{
+    
+    padding: 16px;
+    width:20%;
+    height: 18rem;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:absolute;
+    padding-left: 2%;
+}
+.card{
+    margin-top: 30%;
+    width: 103%;
+    height: 180px;
+    background-image: url('../../assets/internet.png');
+    border: 0ch;
+}
+.card-body{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.container-img{
+    width: 100px;height: 130px;
+}
+p{
+    text-align: center;
+}
+.third-container{
+    padding-left: 10%;
+    margin-top: 5%;
+}
+div a{
+    text-decoration: none;
+}

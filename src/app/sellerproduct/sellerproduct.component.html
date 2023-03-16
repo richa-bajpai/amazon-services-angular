@@ -1,0 +1,21 @@
+<div class="product">
+    <div class="row" *ngFor="let item of slrproduct">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3">
+            <div class="productcard">
+                <img src="{{item.productimage}}" alt="">
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="productcard">
+                <h4>{{item.productname}}</h4>
+                <p>{{item.producttype}}</p>
+                <p>{{item.productdescription}}</p>
+                <button class="btn btn-warning"><a  routerLink="/slrview-details/{{item.id}}">View Details</a></button>
+                <button class="btn btn-secondary" (click)="deleteproduct(item.id)"><a>Delete</a></button>
+            </div>
+        </div>
+        <div class="col-sm-4"></div>
+        <hr>
+    </div>
+</div>

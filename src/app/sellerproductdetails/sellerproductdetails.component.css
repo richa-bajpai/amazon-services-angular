@@ -1,0 +1,16 @@
+.product{
+    background-color: white;
+    color: black;
+}
+.productcard{
+    margin-top: 5%;
+    padding: 5%;
+}
+.productcard img{
+    width: 90%;
+    height: 60%;
+}
+.productcard button{
+    margin-right: 10%;
+    
+}

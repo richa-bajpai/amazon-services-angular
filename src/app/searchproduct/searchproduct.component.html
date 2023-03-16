@@ -1,0 +1,18 @@
+<div *ngIf="searchpro" class="searchitem">
+    <div class="row " *ngFor="let item of searchpro">
+        <div class="col-sm-4">
+            <a routerLink="/slrview-details/{{item.id}}">
+                <img src="{{item.productimage}}">
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <h6><a routerLink="/slrview-details/{{item.id}}">
+                 {{item.productname}}
+                </a>
+            </h6>
+            <p><b>{{item.producttype}}</b></p>
+    
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>

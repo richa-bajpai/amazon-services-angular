@@ -1,0 +1,475 @@
+{
+  "seller": [
+    {
+      "username": "arpit jyotishi",
+      "email": "arpit@gmail.com",
+      "password": "123@abc",
+      "id": 2
+    },
+    {
+      "username": "arpit jyotishi",
+      "email": "arpit@gmail.com",
+      "password": "123@abc",
+      "id": 3
+    },
+    {
+      "username": "peeter",
+      "email": "peeter@gmail.com",
+      "password": "123@abc",
+      "id": 4
+    },
+    {
+      "username": "riya",
+      "email": "riya@gmail.com",
+      "password": "123@abc",
+      "id": 5
+    },
+    {
+      "username": "ravi",
+      "email": "ravi@gmail.com",
+      "password": "123@abc",
+      "id": 6
+    },
+    {
+      "username": "anu",
+      "email": "anu@gmail.com",
+      "password": "123@abc",
+      "id": 7
+    },
+    {
+      "username": "peter",
+      "email": "peter@gmail.com",
+      "password": "123@abc",
+      "id": 8
+    },
+    {
+      "username": "chitra",
+      "email": "chitra@gmail.com",
+      "password": "123@abc",
+      "id": 9
+    }
+  ],
+  "sellerproduct": [
+    {
+      "productname": "samsumgj7",
+      "producttype": "mobile",
+      "productdescription": "Its samsungJ7 mobile from samsung company",
+      "productimage": "https://image-us.samsung.com/SamsungUS/home/mobile/phones/all-other-phones/pdp/sm-j727uzkaxaa/gallery/1-unlocked_j727_bk_v_front.jpg",
+      "id": 2
+    },
+    {
+      "productname": "apple watch",
+      "producttype": "watch",
+      "productdescription": "this watch is from apple company series 2",
+      "productimage": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP746/cer-white.jpg",
+      "id": 4
+    },
+    {
+      "productname": "fastrack watch",
+      "producttype": "watch",
+      "productdescription": "this watch is from fastractcompany",
+      "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
+      "id": 5
+    },
+    {
+      "productname": "titan",
+      "producttype": "watch",
+      "productdescription": "this watch is from titan company",
+      "productimage": "https://m.media-amazon.com/images/I/71DPhrleGaL._AC_UF1000,1000_QL80_.jpg",
+      "id": 6
+    },
+    {
+      "productname": "samsung-headphone",
+      "producttype": "headphone",
+      "productdescription": "its from samsung headphone",
+      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "id": 7
+    },
+    {
+      "productname": "samsung-phone",
+      "producttype": "mobile",
+      "productdescription": "samsung phone from 1st log",
+      "productimage": "https://image-us.samsung.com/SamsungUS/home/mobile/phones/all-other-phones/pdp/sm-j727uzkaxaa/gallery/1-unlocked_j727_bk_v_front.jpg",
+      "id": 8
+    },
+    {
+      "productname": "renold watch",
+      "producttype": "watch",
+      "productdescription": "Renold is watch company produces watchs belt and wallet",
+      "productimage": "https://robbreport.com/wp-content/uploads/2019/12/l.u.c-xps-1860-officer-161242-1001-1.gif",
+      "id": 9
+    },
+    {
+      "productname": "handband",
+      "producttype": "accessories",
+      "productdescription": "this is hand accessories",
+      "productimage": "https://bubblysfashion.com/wp-content/uploads/2018/11/IMG_20181117_084311-300x300.jpg",
+      "id": 10
+    },
+    {
+      "productname": "hairband",
+      "producttype": "accessories",
+      "productdescription": "This is hair band women hair accessories.",
+      "productimage": "https://milledeux.com/wp-content/uploads/2020/04/346-satin-style-10-large-double-bowtie-bow-hairband-front-web-compressed.jpg",
+      "id": 11
+    },
+    {
+      "productname": "hair rubber band",
+      "producttype": "accessories",
+      "productdescription": "this is hair rubber band used to tie hairs",
+      "productimage": "https://i5.walmartimages.com/asr/7efcf5c6-e363-4978-9527-7ed0955cb284_1.c6bc58018fedf6143abb29c8fad94097.jpeg",
+      "id": 12
+    },
+    {
+      "productname": "gold chain",
+      "producttype": "accessories",
+      "productdescription": "this is gold metal chain used as necklace",
+      "productimage": "https://m.media-amazon.com/images/I/71DnToKf4bL._AC_UF1000,1000_QL80_.jpg",
+      "id": 13
+    },
+    {
+      "productname": "food processor",
+      "producttype": "appliances",
+      "productdescription": "this is food processor from prestige",
+      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
+      "id": 14
+    },
+    {
+      "productname": "sandwitch maker",
+      "producttype": "appliances",
+      "productdescription": "this is sandwitch maker from prestige",
+      "productimage": "https://images.thdstatic.com/productImages/5ff50329-05ab-40a8-a900-001c3f042166/svn/black-ovente-panini-presses-gps401b-64_600.jpg",
+      "id": 15
+    },
+    {
+      "productname": "airfryer",
+      "producttype": "appliances",
+      "productdescription": "this is from prestige",
+      "productimage": "https://m.media-amazon.com/images/I/61TG1L3DV1L._AC_UF894,1000_QL80_.jpg",
+      "id": 16
+    },
+    {
+      "productname": "cake mixer",
+      "producttype": "appliances",
+      "productdescription": "this is from bajaj",
+      "productimage": "https://i5.walmartimages.com/asr/4eb80cc2-fa9d-4460-ba6e-ec9659c799d5.d97d39c4187e2c204e30ade6e1e2a1c5.jpeg",
+      "id": 17
+    },
+    {
+      "productname": "harrypotter",
+      "producttype": "books",
+      "productdescription": "this is drama book",
+      "productimage": "https://i.guim.co.uk/img/media/772cb65ae4951bc005dbd273372f65afe437f5af/498_239_2259_1356/master/2259.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=912840cd683c6c235b1d5aa7b5f40c9d",
+      "id": 18
+    },
+    {
+      "productname": "bhgwatgeeta",
+      "producttype": "book",
+      "productdescription": "this is religious book",
+      "productimage": "https://www.shutterstock.com/image-photo/utter-pardesh-india-bhagavad-gita-260nw-1848771181.jpg",
+      "id": 19
+    },
+    {
+      "productname": "lotus",
+      "producttype": "book",
+      "productdescription": "this is book of drama",
+      "productimage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615385337i/57359837._UY2550_SS2550_.jpg",
+      "id": 20
+    },
+    {
+      "productname": "2-states",
+      "producttype": "book",
+      "productdescription": "this is drama romantic movie",
+      "productimage": "https://www.madrasshoppe.com/28775-large_default/2-states.jpg",
+      "id": 21
+    },
+    {
+      "productname": "salwar suit",
+      "producttype": "clothing",
+      "productdescription": "this is indian dress",
+      "productimage": "https://5.imimg.com/data5/UO/PD/SI/SELLER-10720584/readtmade-pure-cotton-salwar-suit-500x500.JPG",
+      "id": 22
+    },
+    {
+      "productname": "office-wear",
+      "producttype": "clothing",
+      "productdescription": "this is office wear for women clothing",
+      "productimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGuH92frKK1XIuG__5FF517D9RhWAxiloxOIx2EbTY3ZJ5mX1saAkEA-zmJCRbv6fhQok&usqp=CAU",
+      "id": 23
+    },
+    {
+      "productname": "saree",
+      "producttype": "clothing",
+      "productdescription": "this is indian outfit",
+      "productimage": "https://images.cbazaar.com/images/pink-net-embroidered-and-stones-designer-saree-sasnftp5686-pl.jpg",
+      "id": 24
+    },
+    {
+      "productname": "tshirt-lower set",
+      "producttype": "clothing",
+      "productdescription": "clothing for active wear",
+      "productimage": "https://5.imimg.com/data5/SELLER/Default/2021/4/SG/KG/WJ/121337109/mens-polyester-micro-t-shirt-lower-set-500x500.jpg",
+      "id": 25
+    },
+    {
+      "productname": "sport shoes",
+      "producttype": "shoes",
+      "productdescription": "wear for sports",
+      "productimage": "https://static.nike.com/a/images/t_default/f07c8068-3696-4127-ad95-f7d9f71b21e4/zoom-fly-5-mens-road-running-shoes-jGsdSl.png",
+      "id": 26
+    },
+    {
+      "productname": "office-wear shoes",
+      "producttype": "shoes",
+      "productdescription": "this is office wear shoes",
+      "productimage": "https://i.shgcdn.com/ba2a023d-678e-4b6b-80e9-1bf228667535/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "id": 27
+    },
+    {
+      "productname": "slipper",
+      "producttype": "shoes",
+      "productdescription": "this is slipper",
+      "productimage": "https://images.ctfassets.net/ltric1hkjv72/C2N87hCsgLOyyU7SMSJ3S/4b3a43de36b36fdbc4252b30a784d058/soft-rib-slippers_white_lightbox_cpg_0628.jpg",
+      "id": 28
+    },
+    {
+      "productname": "snikkers",
+      "producttype": "shoes",
+      "productdescription": "this is casual shoes",
+      "productimage": "https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Premier-White-101322-3.4.jpg?v=1666896034",
+      "id": 29
+    }
+  ],
+  "user": [
+    {
+      "username": "arpit",
+      "email": "arpit@gmail.com",
+      "password": "123@abc",
+      "id": "1"
+    },
+    {
+      "username": "riya",
+      "email": "riya@gmail.com",
+      "password": "123@abc",
+      "id": "2"
+    },
+    {
+      "username": "chitra",
+      "email": "chitra@gmail.com",
+      "password": "123@abc",
+      "id": "3"
+    },
+    {
+      "username": "sonam",
+      "email": "sonam@gmail.com",
+      "password": "123@abc",
+      "id": "6gX2Egg"
+    },
+    {
+      "username": "kapish",
+      "email": "kapish@gmail.com",
+      "password": "123@abc",
+      "id": "DK7jL5w"
+    },
+    {
+      "username": "aishwarya",
+      "email": "aishwarya@gmail.com",
+      "password": "123@abc",
+      "id": "ny2VyBn"
+    }
+  ],
+  "cart": [
+    {
+      "productid": "1"
+    },
+    {
+      "productname": "titan",
+      "producttype": "watch",
+      "productdescription": "this watch is from titan company",
+      "productimage": "https://m.media-amazon.com/images/I/71DPhrleGaL._AC_UF1000,1000_QL80_.jpg",
+      "quantity": 1,
+      "userId": "DK7jL5w",
+      "productid": 6,
+      "id": 9
+    },
+    {
+      "productname": "titan",
+      "producttype": "watch",
+      "productdescription": "this watch is from titan company",
+      "productimage": "https://m.media-amazon.com/images/I/71DPhrleGaL._AC_UF1000,1000_QL80_.jpg",
+      "quantity": 3,
+      "userId": "DK7jL5w",
+      "productid": 6,
+      "id": 10
+    },
+    {
+      "productname": "titan",
+      "producttype": "watch",
+      "productdescription": "this watch is from titan company",
+      "productimage": "https://m.media-amazon.com/images/I/71DPhrleGaL._AC_UF1000,1000_QL80_.jpg",
+      "quantity": 1,
+      "userId": "DK7jL5w",
+      "productid": 6,
+      "id": 11
+    },
+    {
+      "productname": "fastrack watch",
+      "producttype": "watch",
+      "productdescription": "this watch is from fastractcompany",
+      "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
+      "quantity": 1,
+      "userId": "DK7jL5w",
+      "productid": 5,
+      "id": 12
+    },
+    {
+      "productname": "fastrack watch",
+      "producttype": "watch",
+      "productdescription": "this watch is from fastractcompany",
+      "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
+      "quantity": 1,
+      "userId": "DK7jL5w",
+      "productid": 5,
+      "id": 13
+    },
+    {
+      "productname": "samsumgj7",
+      "producttype": "mobile",
+      "productdescription": "Its samsungJ7 mobile from samsung company",
+      "productimage": "https://image-us.samsung.com/SamsungUS/home/mobile/phones/all-other-phones/pdp/sm-j727uzkaxaa/gallery/1-unlocked_j727_bk_v_front.jpg",
+      "quantity": 1,
+      "productid": 2,
+      "id": 17
+    },
+    {
+      "productname": "samsung-phone",
+      "producttype": "mobile",
+      "productdescription": "samsung phone from 1st log",
+      "productimage": "https://image-us.samsung.com/SamsungUS/home/mobile/phones/all-other-phones/pdp/sm-j727uzkaxaa/gallery/1-unlocked_j727_bk_v_front.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 8,
+      "id": 71
+    },
+    {
+      "productname": "saree",
+      "producttype": "clothing",
+      "productdescription": "this is indian outfit",
+      "productimage": "https://images.cbazaar.com/images/pink-net-embroidered-and-stones-designer-saree-sasnftp5686-pl.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 24,
+      "id": 90
+    },
+    {
+      "productname": "samsung-headphone",
+      "producttype": "headphone",
+      "productdescription": "its from samsung headphone",
+      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 7,
+      "id": 91
+    },
+    {
+      "productname": "samsung-headphone",
+      "producttype": "headphone",
+      "productdescription": "its from samsung headphone",
+      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 7,
+      "id": 92
+    },
+    {
+      "productname": "samsung-headphone",
+      "producttype": "headphone",
+      "productdescription": "its from samsung headphone",
+      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 7,
+      "id": 93
+    },
+    {
+      "productname": "samsung-headphone",
+      "producttype": "headphone",
+      "productdescription": "its from samsung headphone",
+      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 7,
+      "id": 94
+    },
+    {
+      "productname": "samsung-headphone",
+      "producttype": "headphone",
+      "productdescription": "its from samsung headphone",
+      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 7,
+      "id": 95
+    },
+    {
+      "productname": "samsung-headphone",
+      "producttype": "headphone",
+      "productdescription": "its from samsung headphone",
+      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 7,
+      "id": 96
+    },
+    {
+      "productname": "food processor",
+      "producttype": "appliances",
+      "productdescription": "this is food processor from prestige",
+      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 14,
+      "id": 97
+    },
+    {
+      "productname": "food processor",
+      "producttype": "appliances",
+      "productdescription": "this is food processor from prestige",
+      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 14,
+      "id": 98
+    },
+    {
+      "productname": "food processor",
+      "producttype": "appliances",
+      "productdescription": "this is food processor from prestige",
+      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 14,
+      "id": 99
+    },
+    {
+      "productname": "food processor",
+      "producttype": "appliances",
+      "productdescription": "this is food processor from prestige",
+      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 14,
+      "id": 100
+    },
+    {
+      "productname": "food processor",
+      "producttype": "appliances",
+      "productdescription": "this is food processor from prestige",
+      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 14,
+      "id": 101
+    }
+  ]
+}

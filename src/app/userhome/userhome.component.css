@@ -1,0 +1,43 @@
+img{
+    width: 80%;
+    height: 60%;
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    flex: 1;
+}
+.userhome{
+    display:inline;
+    flex: 1;
+    position: absolute;    
+    background-color: white;
+}
+.designul{
+    flex:1;
+    display: flex;
+    list-style-type: none;
+    margin-left:5% ;
+    margin-top: 1%;
+}
+.designli{
+    margin-left: 10px;
+}
+.usrborder{
+    background-color: white;
+    padding: 5px;
+    
+}
+.departmentli li{
+margin-top: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 2%;
+}
+button{
+    font-size: small;
+    margin-right: 2%;
+}

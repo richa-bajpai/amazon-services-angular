@@ -1,0 +1,44 @@
+.card{
+    
+    background-color: bisque;
+    width: 103%;
+    height: 250px;
+    border: 0ch;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    flex: 1;
+    padding: 3%;
+}
+.nav ul{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0
+}
+.nav li{
+    list-style: none;
+    padding-left: 10%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-search{
+    
+    display: flex;
+    height: 35px;
+    width: 35px;
+    border: 1px solid grey;
+}
+.forth-container{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 60%;
+    
+}

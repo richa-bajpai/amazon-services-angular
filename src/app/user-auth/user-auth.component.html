@@ -1,0 +1,22 @@
+<div class="user-auth">
+    <div class="User-signup" *ngIf="!uShowLogin">
+        <h1>User-Singup</h1>
+        <form  #userSignup="ngForm" class="common-form" (ngSubmit)="uSignup(userSignup.value)">
+            <input class="form-input" type="text" name="username" ngModel placeholder="Enter username">
+            <input class="form-input" type="email" name="email" ngModel placeholder="Enter email address">
+            <input class="form-input" type="password" name="password" ngModel placeholder="Enter password">
+            <button class="form-button">SignUp</button>
+            <a  class="flip-flop" (click)="openuserLogin()">Click here for Login</a>
+        </form>
+    </div>
+    <div *ngIf="uShowLogin">
+        <h3 style="text-align: center;color:orange ;">{{usrAuth}}</h3> 
+        <h1>User-Login</h1>
+        <form #userLogin="ngForm" class="common-form" (ngSubmit)="uLogin(userLogin.value)">
+            <input class="form-input" type="email" name="email" ngModel placeholder="Enter email address">
+            <input class="form-input" type="password" name="password" ngModel placeholder="Enter password">
+            <button class="form-button">Login</button>
+            <a  class="flip-flop" (click)="openuserSignup()">Click here for SignUp</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="product">
+    <div class="row" *ngIf="Productdata">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3">
+            <div class="productcard">
+                <img src="{{Productdata.productimage}}" alt="">
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="productcard">
+                <h4>{{Productdata.productname}}</h4>
+                <p>{{Productdata.producttype}}</p>
+                <p>{{Productdata.productdescription}}</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="productcard">
+                <button class="btn btn-warning">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -13,6 +13,7 @@ export class UserproductdetailComponent implements OnInit {
   productQuantity:number=1;
   removeCart = false;
   userId:undefined|string;
+  product: any;
   constructor(private router:ActivatedRoute,private pro:UserserviceService) { }
 
   ngOnInit(): void {
@@ -31,7 +32,19 @@ export class UserproductdetailComponent implements OnInit {
           this.removeCart =false;
         }
       }
-      
+      let user = localStorage.getItem('user');
+        if(user){
+          let userdta = user && JSON.parse(user)[0];
+          let userId = userdta?.id;
+          this.pro.getcartList(userId); 
+          this.pro.cartNewData.subscribe((result)=>{
+            let item= result.filter((item:product)=>producdetailId?.toString()===item.productid?.toString())
+            if(item.length){
+              this.product.cartNewData=item[0];
+              this.removeCart= true;
+            }
+          })
+        }
     })
   }
   handleQuantity(val:string){
@@ -75,6 +88,5 @@ export class UserproductdetailComponent implements OnInit {
   RemovetoCart(productId:number){ 
     this.pro.RemoveItem(productId); 
     this.removeCart =false;
-
   }
 }

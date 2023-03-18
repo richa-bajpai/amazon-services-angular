@@ -14,6 +14,7 @@ export class UserproductdetailComponent implements OnInit {
   removeCart = false;
   userId:undefined|string;
   product: any;
+  cartDtaa:product|undefined;
   constructor(private router:ActivatedRoute,private pro:UserserviceService) { }
 
   ngOnInit(): void {
@@ -40,7 +41,7 @@ export class UserproductdetailComponent implements OnInit {
           this.pro.cartNewData.subscribe((result)=>{
             let item= result.filter((item:product)=>producdetailId?.toString()===item.productid?.toString())
             if(item.length){
-              this.product.cartNewData=item[0];
+              this.cartDtaa =item[0];
               this.removeCart= true;
             }
           })
@@ -86,7 +87,20 @@ export class UserproductdetailComponent implements OnInit {
     }
   }
   RemovetoCart(productId:number){ 
-    this.pro.RemoveItem(productId); 
-    this.removeCart =false;
+    if(!localStorage.getItem('user')){
+      this.pro.RemoveItem(productId); 
+    }
+    else{
+      let user = localStorage.getItem('user');
+          let userdta = user && JSON.parse(user)[0];
+          let userId = userdta?.id;
+     this.cartDtaa && this.pro.removeFromcart(this.cartDtaa?.id).subscribe((result)=>{
+     if(result){
+      this.pro.getcartList(userId);
+     }
+     })
+     this.removeCart =false;
+
+    }
   }
 }

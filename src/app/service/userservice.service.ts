@@ -73,11 +73,11 @@ export class UserserviceService {
     if(cartData){
       let items:product[]= JSON.parse(cartData) ;
       items = items.filter((item:product)=>productId!==item.id);
-        localStorage.setItem('localCart',JSON.stringify(items));
+        localStorage.setItem('loca  lCart',JSON.stringify(items));
         this.cartNewData.emit(items);
       }
   }
-  Addtokrt(cartDta:any){
+  Addtokrt(cartDta:cart){
     return this.http.post('http://localhost:3000/cart',cartDta);
   }
   getcartList(userId:product){
@@ -86,8 +86,12 @@ export class UserserviceService {
     console.warn(result);
     if(result && result.body){
       this.cartNewData.emit(result.body);
-
     }
   });
+  }
+
+  removeFromcart(cartId:number){
+    return this.http.delete('http://localhost:3000/cart/'+cartId);
+
   }
 }

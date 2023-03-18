@@ -66,6 +66,6 @@ export class UserAuthComponent implements OnInit {
     }
     setTimeout(()=>{
       this.product.getcartList(userId);
-    },500);
+    },2000);
   }
 }

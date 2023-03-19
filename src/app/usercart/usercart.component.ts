@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { product } from '../datatype';
+import { cart, product } from '../datatype';
 import { UserserviceService } from '../service/userservice.service';
 
 @Component({
@@ -11,6 +11,7 @@ import { UserserviceService } from '../service/userservice.service';
 export class UsercartComponent implements OnInit {
   userProductCart:undefined|product;
   productQuantity:number=1;
+  cartData:cart[]|undefined;
   constructor(private router:ActivatedRoute,private pro:UserserviceService) { }
 
   ngOnInit(): void {
@@ -19,7 +20,9 @@ export class UsercartComponent implements OnInit {
       this.userProductCart= result;
       this.Showdata();
     })
-  
+    this.pro.currentCart().subscribe((result)=>{
+      this.cartData= result;
+    })
   }
   handleQuantity(val:string){
     if(this.productQuantity<20 && val==='max')

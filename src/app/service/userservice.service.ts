@@ -92,6 +92,11 @@ export class UserserviceService {
 
   removeFromcart(cartId:number){
     return this.http.delete('http://localhost:3000/cart/'+cartId);
+  }
+  currentCart(){
+    let uList =localStorage.getItem('user');
+    let uData = uList && JSON.parse(uList)[0];
+    return this.http.get<cart[]>('http://localhost:3000/cart?userId='+uData.id);
 
   }
 }

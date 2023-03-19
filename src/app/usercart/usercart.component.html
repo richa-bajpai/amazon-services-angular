@@ -25,32 +25,32 @@
    <div class="col-sm-1"></div>
     
 </div> -->
-//////<!---New code-->////
- <div class="product">
-   <div class="col-sm-1"></div>
-   <div class="col-sm-10">
-    <table>
-        <tr >
-            <th>Product-Image</th>
-            <th>Product-Name</th>
-            <th>Product-Description</th>
-            <th>Progress</th>
-        </tr>
-        <tr *ngIf="userProductCart">
-            <td style="width:35%;"><img src="{{userProductCart.productimage}}"></td>
-            <td>{{userProductCart.productname}}</td>
-            <td>{{userProductCart.productdescription}}</td>
-            <td>
-                <div class="quantity-group">
-                    <button (click)="handleQuantity('max')">+</button>
-                    <input type="text" value="{{productQuantity}}">
-                <button (click)="handleQuantity('min')">-</button>
-                </div>
-            </td>
-        </tr>
-    </table>
-   </div>
-   <div class="col-sm-1"></div>
-    
-</div> 
-
+<!---New code-->
+ <div class="cart-page">
+    <h1>Cart Items</h1>
+    <div class="row">
+        <div class="col-sm-8 details">
+            <ul *ngFor=" let cart of cartData">
+                <li style="margin-top: 2%;">
+                    <img src="{{cart.productimage}}">
+                </li>
+                <li style="margin-top: 5%;"><span>{{cart.productname}}</span></li>
+                <li style="margin-top: 5%;"><span>Price:100</span></li>
+                <li style="margin-top: 5%;"><span>{{cart.quantity}}</span></li>
+                <li style="margin-top: 5%;"><button>Remove to cart</button></li>
+            </ul>
+           
+        </div>
+        <div class="col-sm-3 summary">
+            <h3>Summary</h3>
+            <ul>
+                <li><span>Amount</span><span>300</span></li>
+                <li><span>Tax</span><span>20</span></li>
+                <li><span>Delivery</span><span>30</span></li>
+                <li><span>Discount</span><span>5%</span></li>
+                <li><span><h4>Total </h4></span><span>300</span></li>
+                <button><a routerLink="usercheckout">CheckOut</a></button>
+            </ul>
+        </div>
+    </div>
+ </div>

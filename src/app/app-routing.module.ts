@@ -10,6 +10,7 @@ import { SellerproductComponent } from './sellerproduct/sellerproduct.component'
 import { SellerproductdetailsComponent } from './sellerproductdetails/sellerproductdetails.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
 import { UsercartComponent } from './usercart/usercart.component';
+import { UsercheckoutComponent } from './usercheckout/usercheckout.component';
 import { UserhomeComponent } from './userhome/userhome.component';
 import { UserproductdetailComponent } from './userproductdetail/userproductdetail.component';
 
@@ -40,13 +41,16 @@ const routes: Routes = [{
   path:'profile',component:ProfileComponent
 },
 {
-  path:'usercart/:productId',component:UsercartComponent
+  path:'usercart',component:UsercartComponent
 },
 {
   path:'search/:query',component:SearchproductComponent
 },
 {
   path:'user-view/:productId',component:UserproductdetailComponent
+},
+{
+  path:'usercheckout',component:UsercheckoutComponent
 }
 ];
 

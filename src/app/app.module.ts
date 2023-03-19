@@ -18,7 +18,8 @@ import { UserhomeComponent } from './userhome/userhome.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UsercartComponent } from './usercart/usercart.component';
 import { SearchproductComponent } from './searchproduct/searchproduct.component';
-import { UserproductdetailComponent } from './userproductdetail/userproductdetail.component'
+import { UserproductdetailComponent } from './userproductdetail/userproductdetail.component';
+import { UsercheckoutComponent } from './usercheckout/usercheckout.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,8 @@ import { UserproductdetailComponent } from './userproductdetail/userproductdetai
     ProfileComponent,
     UsercartComponent,
     SearchproductComponent,
-    UserproductdetailComponent
+    UserproductdetailComponent,
+    UsercheckoutComponent
   ],
   imports: [
     BrowserModule,

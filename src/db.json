@@ -342,6 +342,36 @@
       "id": 17
     },
     {
+      "productname": "titan",
+      "producttype": "watch",
+      "productdescription": "this watch is from titan company",
+      "productimage": "https://m.media-amazon.com/images/I/71DPhrleGaL._AC_UF1000,1000_QL80_.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 6,
+      "id": 18
+    },
+    {
+      "productname": "hair rubber band",
+      "producttype": "accessories",
+      "productdescription": "this is hair rubber band used to tie hairs",
+      "productimage": "https://i5.walmartimages.com/asr/7efcf5c6-e363-4978-9527-7ed0955cb284_1.c6bc58018fedf6143abb29c8fad94097.jpeg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 12,
+      "id": 19
+    },
+    {
+      "productname": "samsung-headphone",
+      "producttype": "headphone",
+      "productdescription": "its from samsung headphone",
+      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "quantity": 1,
+      "userId": "1",
+      "productid": 7,
+      "id": 20
+    },
+    {
       "productname": "samsung-phone",
       "producttype": "mobile",
       "productdescription": "samsung phone from 1st log",
@@ -349,27 +379,17 @@
       "quantity": 1,
       "userId": "1",
       "productid": 8,
-      "id": 71
+      "id": 21
     },
     {
-      "productname": "saree",
-      "producttype": "clothing",
-      "productdescription": "this is indian outfit",
-      "productimage": "https://images.cbazaar.com/images/pink-net-embroidered-and-stones-designer-saree-sasnftp5686-pl.jpg",
+      "productname": "hairband",
+      "producttype": "accessories",
+      "productdescription": "This is hair band women hair accessories.",
+      "productimage": "https://milledeux.com/wp-content/uploads/2020/04/346-satin-style-10-large-double-bowtie-bow-hairband-front-web-compressed.jpg",
       "quantity": 1,
-      "userId": "1",
-      "productid": 24,
-      "id": 90
-    },
-    {
-      "productname": "samsung-headphone",
-      "producttype": "headphone",
-      "productdescription": "its from samsung headphone",
-      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 7,
-      "id": 91
+      "userId": "2",
+      "productid": 11,
+      "id": 22
     },
     {
       "productname": "samsung-headphone",
@@ -377,209 +397,29 @@
       "productdescription": "its from samsung headphone",
       "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
       "quantity": 1,
-      "userId": "1",
+      "userId": "2",
       "productid": 7,
-      "id": 92
+      "id": 23
     },
     {
-      "productname": "samsung-headphone",
-      "producttype": "headphone",
-      "productdescription": "its from samsung headphone",
-      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
+      "productname": "hair rubber band",
+      "producttype": "accessories",
+      "productdescription": "this is hair rubber band used to tie hairs",
+      "productimage": "https://i5.walmartimages.com/asr/7efcf5c6-e363-4978-9527-7ed0955cb284_1.c6bc58018fedf6143abb29c8fad94097.jpeg",
       "quantity": 1,
-      "userId": "1",
-      "productid": 7,
-      "id": 93
-    },
-    {
-      "productname": "samsung-headphone",
-      "producttype": "headphone",
-      "productdescription": "its from samsung headphone",
-      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 7,
-      "id": 94
-    },
-    {
-      "productname": "samsung-headphone",
-      "producttype": "headphone",
-      "productdescription": "its from samsung headphone",
-      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 7,
-      "id": 95
-    },
-    {
-      "productname": "samsung-headphone",
-      "producttype": "headphone",
-      "productdescription": "its from samsung headphone",
-      "productimage": "https://m.media-amazon.com/images/I/51+beo8SoYL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 7,
-      "id": 96
-    },
-    {
-      "productname": "food processor",
-      "producttype": "appliances",
-      "productdescription": "this is food processor from prestige",
-      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 14,
-      "id": 97
-    },
-    {
-      "productname": "food processor",
-      "producttype": "appliances",
-      "productdescription": "this is food processor from prestige",
-      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 14,
-      "id": 98
-    },
-    {
-      "productname": "food processor",
-      "producttype": "appliances",
-      "productdescription": "this is food processor from prestige",
-      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 14,
-      "id": 99
-    },
-    {
-      "productname": "food processor",
-      "producttype": "appliances",
-      "productdescription": "this is food processor from prestige",
-      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 14,
-      "id": 100
-    },
-    {
-      "productname": "food processor",
-      "producttype": "appliances",
-      "productdescription": "this is food processor from prestige",
-      "productimage": "https://m.media-amazon.com/images/I/719hcFL5ZJL.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 14,
-      "id": 101
-    },
-    {
-      "productname": "tshirt-lower set",
-      "producttype": "clothing",
-      "productdescription": "clothing for active wear",
-      "productimage": "https://5.imimg.com/data5/SELLER/Default/2021/4/SG/KG/WJ/121337109/mens-polyester-micro-t-shirt-lower-set-500x500.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 25,
-      "id": 102
-    },
-    {
-      "productname": "tshirt-lower set",
-      "producttype": "clothing",
-      "productdescription": "clothing for active wear",
-      "productimage": "https://5.imimg.com/data5/SELLER/Default/2021/4/SG/KG/WJ/121337109/mens-polyester-micro-t-shirt-lower-set-500x500.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 25,
-      "id": 103
-    },
-    {
-      "productname": "tshirt-lower set",
-      "producttype": "clothing",
-      "productdescription": "clothing for active wear",
-      "productimage": "https://5.imimg.com/data5/SELLER/Default/2021/4/SG/KG/WJ/121337109/mens-polyester-micro-t-shirt-lower-set-500x500.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 25,
-      "id": 104
-    },
-    {
-      "productname": "tshirt-lower set",
-      "producttype": "clothing",
-      "productdescription": "clothing for active wear",
-      "productimage": "https://5.imimg.com/data5/SELLER/Default/2021/4/SG/KG/WJ/121337109/mens-polyester-micro-t-shirt-lower-set-500x500.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 25,
-      "id": 105
-    },
-    {
-      "productname": "tshirt-lower set",
-      "producttype": "clothing",
-      "productdescription": "clothing for active wear",
-      "productimage": "https://5.imimg.com/data5/SELLER/Default/2021/4/SG/KG/WJ/121337109/mens-polyester-micro-t-shirt-lower-set-500x500.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 25,
-      "id": 106
+      "userId": "2",
+      "productid": 12,
+      "id": 24
     },
     {
       "productname": "fastrack watch",
       "producttype": "watch",
       "productdescription": "this watch is from fastractcompany",
       "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
-      "quantity": 1,
-      "userId": "1",
+      "quantity": 2,
+      "userId": "2",
       "productid": 5,
-      "id": 108
-    },
-    {
-      "productname": "fastrack watch",
-      "producttype": "watch",
-      "productdescription": "this watch is from fastractcompany",
-      "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 5,
-      "id": 109
-    },
-    {
-      "productname": "fastrack watch",
-      "producttype": "watch",
-      "productdescription": "this watch is from fastractcompany",
-      "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 5,
-      "id": 110
-    },
-    {
-      "productname": "fastrack watch",
-      "producttype": "watch",
-      "productdescription": "this watch is from fastractcompany",
-      "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 5,
-      "id": 111
-    },
-    {
-      "productname": "fastrack watch",
-      "producttype": "watch",
-      "productdescription": "this watch is from fastractcompany",
-      "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 5,
-      "id": 112
-    },
-    {
-      "productname": "fastrack watch",
-      "producttype": "watch",
-      "productdescription": "this watch is from fastractcompany",
-      "productimage": "https://m.media-amazon.com/images/I/71bfKhrwjUL._AC_UF1000,1000_QL80_.jpg",
-      "quantity": 1,
-      "userId": "1",
-      "productid": 5,
-      "id": 113
+      "id": 25
     }
   ]
 }

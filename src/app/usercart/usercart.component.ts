@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { cart, product } from '../datatype';
 import { UserserviceService } from '../service/userservice.service';
 
@@ -12,7 +12,7 @@ export class UsercartComponent implements OnInit {
   userProductCart:undefined|product;
   productQuantity:number=1;
   cartData:cart[]|undefined;
-  constructor(private router:ActivatedRoute,private pro:UserserviceService) { }
+  constructor(private router:ActivatedRoute,private pro:UserserviceService,private chk:Router) { }
 
   ngOnInit(): void {
     let userproductId = this.router.snapshot.paramMap.get('productId');
@@ -42,5 +42,8 @@ export class UsercartComponent implements OnInit {
     cartData = localData?.id;
     console.warn(cartData)
   }
-
+  checkout(){
+    this.chk.navigate(['/usercheckout'])
+  }
+  
 }

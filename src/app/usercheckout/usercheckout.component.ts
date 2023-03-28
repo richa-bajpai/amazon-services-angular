@@ -11,5 +11,7 @@ export class UsercheckoutComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  usrCheckout(data:any){
 
+  }
 }

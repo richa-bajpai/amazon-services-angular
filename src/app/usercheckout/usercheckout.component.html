@@ -1,11 +1,11 @@
 <div class="checkout">
     <h3>CheckOut</h3>
     <div class="row">
-        
+
         <form #usercheckout="ngForm" class="common-form" (ngSubmit)="usrCheckout(usercheckout.value)">
             <input type="text" class="form-input" name="address" ngModel placeholder="Enter address details">
             <input type="text" class="form-input" name="state" ngModel placeholder="Enter your state">
-            <input type="text"class="form-input" name="city" ngModel placeholder="Enter city name">
+            <input type="text" class="form-input" name="city" ngModel placeholder="Enter city name">
             <input type="number" class="form-input" name="postcode" ngModel placeholder="Enter postal code">
             <input type="number" class="form-input" name="phonenumber" ngModel placeholder="Enter phone number">
             <input type="text" class="form-input" name="email-address" ngModel placeholder="Enter your email address">
